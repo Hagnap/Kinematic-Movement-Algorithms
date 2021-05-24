@@ -8,7 +8,7 @@ Kinematic-Seek takes both an agent's and its target's position and orientation t
 
 ### Flee
 -------------------------------------------------------------------------------------------------------------------------------
-Kinematic-Flee is very similar to Kinematic-Seek however we change one line of code. For this we calculate the direction by doing `this.transform.position - target.transform.position` instead of `target.transform.position - this.transform.position`
+Kinematic-Flee is very similar to Kinematic-Seek however we change one line of code. For this we calculate the direction by doing `this.transform.position - target.transform.position` instead of `target.transform.position - this.transform.position`. This will also make the agent rotate so that it is facing away from the target. 
 
 ### Arrive
 -------------------------------------------------------------------------------------------------------------------------------
