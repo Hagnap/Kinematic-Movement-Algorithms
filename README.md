@@ -17,6 +17,7 @@ Kinematic-Flee is very similar to Kinematic-Seek however we change one line of c
 ## *Arrive*
 
 Kinematic-Arrive is also similar to Kinematic-Seek however this algorithm is best used when the agent has a target that is stationary. This algorithm uses a **radius of satisfaction**, this is an imaginary circle around the target and if the agent is within this circle it is 'satisfied' by being close enough to its target which will result in the agent stopping. This fixes the issues of overshooting and wiggling seen in Seek when it's used to move the agent to a stationary target. This algorithm will also make the agent rotate so that it will face towards its target.
+
 -------------------------------------------------------------------------------------------------------------------------------
 ## *Wander*
 
