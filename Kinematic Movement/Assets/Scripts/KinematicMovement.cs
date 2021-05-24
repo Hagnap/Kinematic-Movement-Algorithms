@@ -182,7 +182,7 @@ public class KinematicMovement : MonoBehaviour
 	}
 
 	/// <summary>
-	/// An exetension of Kinematic-Seek. Approximates the target's future position and then passes that position into Flee so that the agent moves away from that position.
+	/// An exetension of Kinematic-Flee. Approximates the target's future position and then passes that position into Flee so that the agent moves away from that position.
 	/// </summary>
 	/// <param name="target">A moving target that the agent is getting away from.</param>
 	public void runKinematicEvade(GameObject target)
