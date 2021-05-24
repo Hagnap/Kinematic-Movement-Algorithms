@@ -22,3 +22,13 @@ Kinematic-Arrive is also similar to Kinematic-Seek however this algorithm is bes
 ## *Wander*
 
 Kinematic-Wander will make the agent only move in a forward direction at the agent's max-speed. However, this algorithm will modify the agent's orientation radonmly so that it moves in a random manner, this algorithm has no target for the agent. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+## *Pursue*
+
+An exetension of Kinematic-Seek. Approximates the target's future position and then passes that position into Seek so that the agent moves to that position.
+
+-------------------------------------------------------------------------------------------------------------------------------
+## *Evade*
+
+An exetension of Kinematic-Flee. Approximates the target's future position and then passes that position into Flee so that the agent moves away from that position.
