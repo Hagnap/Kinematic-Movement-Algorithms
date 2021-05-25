@@ -4,12 +4,14 @@ using UnityEngine;
 
 /// <summary>
 /// What are Kinematic Movement Algorithms?
-///		- Algorithms that are used to move an autonomous agent. These algorithms use three things
+///		- Algorithms that are used to move an autonomous agent using thesethree things
 ///			1) Position
 ///			2) Orientation
-///			3) Velocity
+///			3) Velocity (Both Linear Velocity & Angular Velocity)
 ///			
-///			Linear Velocity & Angular Velocity are also used
+/// Kinematic Algorithms will apply constant velocity without any acceleration nor slowdown. 
+///
+///	A rigidbody is required since we are using physics. 
 /// </summary>
 public class KinematicMovement : MonoBehaviour
 {
