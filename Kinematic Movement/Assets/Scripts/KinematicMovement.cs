@@ -11,7 +11,7 @@ using UnityEngine;
 ///			
 /// Kinematic Algorithms will apply constant velocity without any acceleration nor slowdown. 
 ///
-///	A rigidbody is required since we are using physics. 
+/// A rigidbody is required since we are using physics. 
 /// </summary>
 public class KinematicMovement : MonoBehaviour
 {
